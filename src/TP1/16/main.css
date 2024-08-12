@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p,
+h1 {
+  margin: 10px;
+  text-align: justify;
+}
+
+pre {
+  margin: 10px;
+  padding: 5px;
+  width: fit-content;
+  border: 1px solid rgb(0, 0, 0, 0.5);
+}
+
+.enunciado {
+  width: 1500px;
+}
+
+.enunciado h1,
+p {
+  text-align: justify;
+}
+
+.solucao {
+  margin: 40px 0px 0px 350px;
+  padding: 5px;
+  border: 1px solid rgb(250, 128, 114);
+  box-shadow: 1px 1px 1px rgba(255, 127, 113, 0.5);
+  width: 790px;
+}

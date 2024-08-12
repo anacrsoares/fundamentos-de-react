@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  align-items: center;
+  border-radius: 5px;
+  margin: 40px;
+  padding: 20px;
+  width: 30vw;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.card > img {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.info-perfil {
+  text-align: center;
+}
+
+.info-perfil h2 {
+  text-align: justify;
+  margin-bottom: 5px;
+}
+
+.info-perfil p {
+  text-align: justify;
+}
