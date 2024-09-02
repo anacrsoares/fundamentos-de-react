@@ -1,0 +1,33 @@
+.container_header {
+  background-color: brown;
+  color: rgb(197, 206, 214);
+  padding: 10px 20px;
+  border-bottom: 2px solid #444;
+  font-size: 18px;
+  max-height: 40px;
+}
+
+.container_header ul {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container_header li {
+  list-style: none;
+  user-select: none;
+}
+
+.container_header li:first-child {
+  font-family: "SUSE", sans-serif;
+  flex-grow: 1;
+  font-size: px;
+  font-weight: bold;
+}
+
+nav ul li:nth-child(n + 2):hover {
+  cursor: pointer;
+  color: #4caf4fb8;
+  border-bottom: 2px solid #4caf50;
+}

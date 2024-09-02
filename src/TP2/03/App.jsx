@@ -1,24 +1,21 @@
-export default function CalcularMediaAvaliacoes() {
-  const avaliacoes = [1, 5, 7, 8, 10, 2, 3, 4, 5, 5, 6, 7, 9, 9, 4, 4, 2, 1];
-
-  const soma = avaliacoes.reduce((total, avaliacoes) => total + avaliacoes, 0);
-
-  const media = Math.round((soma / avaliacoes.length) * 100) / 100;
-
+export default function EstilosEmClassName() {
   return (
     <div>
       <div className="enunciado">
-        <h1>Exercício 3 - Calcular Média de Avaliações</h1>
+        <h1>Exercício 3 - Componente com estilos em className</h1>
         <p>
-          Desenvolva uma função chamada calcularMediaAvaliacoes que receba um
-          array de números representando avaliações de um produto e retorne a
-          média das avaliações. Utilize os métodos reduce e length para calcular
-          a média.
+          Neste exercício, você irá refatorar o projeto do exercício anterior
+          (exercício 2), utilizando a abordagem de className. Separe os estilos
+          em um arquivo CSS e importe-os no componente. Requisitos: Crie um
+          arquivo styles.css na pasta do seu projeto para armazenar os estilos.
+          Mova todos os estilos inline ou embutidos para o arquivo styles.css.
+          Defina as classes CSS necessárias e aplique-as ao componente
+          utilizando a propriedade className.
         </p>
-      </div>
-      <div className="solucao">
-        <h2>Média:</h2>
-        <p>A média das avaliações foi {media}.</p>
+
+        <div className="solucao">
+          <p>Obs: já resolvido no exercício anterior.</p>
+        </div>
       </div>
     </div>
   );

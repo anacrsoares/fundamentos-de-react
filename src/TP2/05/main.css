@@ -5,9 +5,14 @@
 }
 
 p,
-h1 {
+h1,
+h3 {
   margin: 10px;
   text-align: justify;
+}
+
+h2 {
+  text-align: center;
 }
 
 .solucao {
@@ -15,16 +20,15 @@ h1 {
   padding: 5px;
   border: 1px solid rgb(250, 128, 114);
   box-shadow: 1px 1px 1px rgba(255, 127, 113, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
 }
 
-.solucao li {
-  margin: 0px 0px 0px 30px;
-  list-style: circle;
-}
-
-pre {
-  margin: 10px;
-  padding: 5px;
-  width: fit-content;
-  border: 1px solid rgb(0, 0, 0, 0.5);
+.container_card {
+  /* text-align: center; */
+  /* gap: 30px; */
+  border: 2px solid black;
+  width: 50vw;
 }

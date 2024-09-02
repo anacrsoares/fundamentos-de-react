@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import CalcularPrecoTotal from "./App.jsx";
+import ComponeteBasico from "./App.jsx";
 import "./main.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <CalcularPrecoTotal />
+    <ComponeteBasico />
   </React.StrictMode>
 );

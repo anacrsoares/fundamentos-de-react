@@ -1,22 +1,41 @@
-export default function CalcularPrecoTotal() {
-  const preçoUnitário = 10; // defina o preço unitário
-  const quantidadeComprada = 3; // defina a quantidade
+import image_placeholder from "../../img/image_placeholder.png";
 
-  const preçoTotal = preçoUnitário * quantidadeComprada;
-
+export default function ComponeteBasico() {
   return (
     <div>
       <div className="enunciado">
-        <h1>Exercício 1 - Cálculo do Preço Total</h1>
+        <h1>Exercício 1 - Criando um componente básico</h1>
         <p>
-          Crie uma função chamada calcularPrecoTotal que receba dois números
-          como parâmetros: o preço de um produto e a quantidade comprada. A
-          função deve retornar o preço total do produto com base na quantidade.
+          Implemente um componente simples com React JS. Neste componente você
+          deverá implementar: Uma imagem qualquer; Um título;
         </p>
       </div>
-      <p>O preço unitário é: R$ {preçoUnitário},00</p>
-      <p>A quantidade comprada é R$ {quantidadeComprada},00</p>
-      <p>O preço total é: R$ {preçoTotal},00</p>
+
+      <div className="solucao">
+        <div className="container_image">
+          <img src={image_placeholder} />
+        </div>
+
+        <h2> Título 1</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quia
+          laudantium. Iure eos esse temporibus doloremque? Laudantium saepe
+          culpa, ullam ipsam sit ut vitae! Vel tempore rerum delectus
+          voluptatibus quae? Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Aut, quia laudantium. Iure eos esse temporibus doloremque?
+          Laudantium saepe culpa, ullam ipsam sit ut vitae! Vel tempore rerum
+          delectus voluptatibus quae? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Aut, quia laudantium. Iure eos esse temporibus
+          doloremque? Laudantium saepe culpa, ullam ipsam sit ut vitae! Vel
+          tempore rerum delectus voluptatibus quae? Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Aut, quia laudantium. Iure eos esse
+          temporibus doloremque? Laudantium saepe culpa, ullam ipsam sit ut
+          vitae! Vel tempore rerum delectus voluptatibus quae? Lorem ipsum dolor
+          sit amet consectetur adipisicing elit. Aut, quia laudantium. Iure eos
+          esse temporibus doloremque? Laudantium saepe culpa, ullam ipsam sit ut
+          vitae! Vel tempore rerum delectus voluptatibus quae?
+        </p>
+      </div>
     </div>
   );
 }

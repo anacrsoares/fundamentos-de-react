@@ -1,32 +1,18 @@
 export default function App() {
-  const prodEstoque = filtrarPorCategoria(produtos);
   return (
     <div>
       <div className="enunciado">
-        <h1>Exercício 7 - Verificar Disponibilidade de Estoque</h1>
+        <h1>Exercício 7 - Reutilização de componentes com responsividade</h1>
         <p>
-          Desenvolva uma função chamada verificarEstoque que receba um array de
-          objetos representando produtos, onde cada produto tem uma propriedade
-          quantidadeEmEstoque. A função deve retornar um array contendo apenas
-          os produtos que têm quantidade em estoque maior que zero.
+          Neste exercício, você irá aprimorar o template desenvolvido
+          anteriormente (exercício 6) para torná-lo responsivo quando acessado
+          por dispositivos de tela pequena, como smartphones. A capacidade de se
+          adaptar a diferentes tamanhos de tela é essencial para garantir uma
+          experiência de usuário consistente em diferentes dispositivos.
         </p>
-        <pre>{JSON.stringify(produtos, null, 2)}</pre>
       </div>
 
-      <div className="solucao">
-        <p>Os produtos cuja quantidade em estoque é maior que 0 são:</p>
-        <pre>{JSON.stringify(prodEstoque, null, 2)}</pre>
-      </div>
+      <div className="solucao"></div>
     </div>
   );
-}
-
-const produtos = [
-  { nome: "Laptop", quantidadeEmEstoque: 5 },
-  { nome: "Tablet", quantidadeEmEstoque: 0 },
-  { nome: "Smartphone", quantidadeEmEstoque: 3 },
-];
-
-function filtrarPorCategoria(produtos) {
-  return produtos.filter((produto) => produto.quantidadeEmEstoque > 0);
 }
