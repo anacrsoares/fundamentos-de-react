@@ -11,20 +11,11 @@ h1 {
 }
 
 .solucao {
-  margin: 30px;
-  padding: 5px;
+  /* margin: 30px; */
+  padding: 10px;
   border: 1px solid rgb(250, 128, 114);
   box-shadow: 1px 1px 1px rgba(255, 127, 113, 0.5);
-}
-
-.solucao li {
-  margin: 0px 0px 0px 30px;
-  list-style: circle;
-}
-
-pre {
-  margin: 10px;
-  padding: 5px;
-  width: fit-content;
-  border: 1px solid rgb(0, 0, 0, 0.5);
+  background-color: #161513;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }

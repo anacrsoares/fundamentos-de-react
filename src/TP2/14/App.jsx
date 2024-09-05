@@ -1,21 +1,38 @@
-export default function App() {
+export default function Saudacao() {
   return (
-    <div className="Enunciado">
-      <h1>Exercício 14 - Criar um Componente de Cartão de Perfil</h1>
+    <div>
+      <div className="enunciado">
+        <h1>Exercício 14 - Portfólio - Parte 4</h1>
+        <p>
+          Neste exercício, você continuará a desenvolver o seu portfólio de
+          desenvolvedor, adicionando a seção de contatos. Você criará um novo
+          componente para exibir suas informações de contato.
+        </p>
 
-      <p>
-        Crie um novo projeto React utilizando Vite. Dentro do projeto, crie um
-        componente funcional chamado CartaoPerfil que exiba um cartão de perfil
-        com informações estáticas. O componente deve ter a seguinte estrutura:
-        Informações do Perfil: Um título com o nome do usuário. Uma descrição
-        com uma breve biografia. Uma imagem de perfil. Crie um arquivo CSS
-        chamado CartaoPerfil.css e adicione estilos para o cartão de perfil. Os
-        estilos devem garantir que o cartão tenha uma aparência profissional e
-        limpa. Depois de criar o componente CartaoPerfil e estilizar com CSS,
-        importe-o e utilize-o no arquivo src/App.jsx. Certifique-se de que o
-        cartão de perfil é exibido corretamente e estilizado conforme as
-        especificações.
-      </p>
+        <p>
+          Etapa 4: Desenvolvimento da Seção de Contatos Criação do Componente:
+          Crie um novo componente chamado "Contatos.jsx" na pasta de componentes
+          do seu projeto. Conteúdo do Componente: Dentro do componente
+          "Contatos", adicione suas informações de contato, como endereço de
+          e-mail, número de telefone e links para perfis em redes sociais
+          (LinkedIn, GitHub, etc.).
+        </p>
+
+        <p>
+          Estilização: Estilize o componente "Contatos" de forma atraente e
+          organizada. Utilize CSS para criar um layout que destaque suas
+          informações de contato e torne a seção visualmente agradável.
+        </p>
+
+        <p>
+          Instruções Adicionais: Certifique-se de que suas informações de
+          contato estejam atualizadas e sejam facilmente acessíveis para quem
+          visitar seu portfólio. Considere adicionar um formulário de contato se
+          desejar permitir que os visitantes enviem mensagens diretamente do seu
+          portfólio. Mantenha um design consistente com as outras seções do seu
+          portfólio para uma experiência de usuário harmoniosa.
+        </p>
+      </div>
     </div>
   );
 }

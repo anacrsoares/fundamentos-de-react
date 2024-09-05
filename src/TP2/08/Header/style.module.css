@@ -1,5 +1,5 @@
 .container_header {
-  background-color: brown;
+  background-color: #2f4f4f;
   color: rgb(197, 206, 214);
   padding: 10px 20px;
   border-bottom: 2px solid #444;
@@ -28,6 +28,6 @@
 
 nav ul li:nth-child(n + 2):hover {
   cursor: pointer;
-  color: #4caf4fb8;
-  border-bottom: 2px solid #4caf50;
+  color: #8dac56;
+  border-bottom: 2px solid #556b2f;
 }

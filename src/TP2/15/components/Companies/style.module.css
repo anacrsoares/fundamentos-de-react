@@ -1,0 +1,41 @@
+.companies {
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+}
+
+.companies h2 {
+  font-size: 42px;
+  font-weight: 600;
+  margin: 60px auto;
+}
+
+.companies_scroll {
+  overflow: hidden;
+  padding: 24px;
+  margin: auto;
+  width: 700px;
+  position: relative;
+}
+
+.companies_vw {
+  display: flex;
+  gap: 100px;
+  translate: calc(-50%-50px);
+  width: max-content;
+  animation: scrollInf 10s linear infinite;
+}
+
+.company_card img {
+  width: 140px;
+  height: 140px;
+  object-fit: scale-down;
+  filter: grayscale(100%);
+  opacity: 0.8;
+}
+
+@keyframes scrollInf {
+  to {
+    translate: calc(-50% - 50px);
+  }
+}

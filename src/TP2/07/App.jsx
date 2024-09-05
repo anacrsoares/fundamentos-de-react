@@ -11,8 +11,6 @@ export default function App() {
           experiência de usuário consistente em diferentes dispositivos.
         </p>
       </div>
-
-      <div className="solucao"></div>
     </div>
   );
 }

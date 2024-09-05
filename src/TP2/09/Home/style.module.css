@@ -1,0 +1,166 @@
+.home {
+  padding: 20px;
+  background-color: #ffffff;
+  color: #444;
+}
+
+.home-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.home h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #36454f;
+}
+
+.home p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.home h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #36454f;
+}
+
+.home ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.home ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.home ul li strong {
+  color: #36454f;
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+  .container_header {
+    font-size: 16px;
+  }
+
+  .container_header ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .container_header li {
+    margin-bottom: 10px;
+  }
+
+  .home h2 {
+    font-size: 24px;
+  }
+
+  .home h3 {
+    font-size: 20px;
+  }
+
+  .home ul li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container_header {
+    font-size: 14px;
+  }
+
+  .container_header ul {
+    gap: 20px;
+  }
+
+  .home {
+    padding: 15px;
+  }
+
+  .home-content {
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  .home h2 {
+    font-size: 20px;
+  }
+
+  .home h3 {
+    font-size: 18px;
+  }
+
+  .home ul li {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container_header {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .container_header ul {
+    gap: 15px;
+  }
+
+  .home {
+    padding: 10px;
+  }
+
+  .home-content {
+    padding: 5px;
+  }
+
+  .home h2 {
+    font-size: 18px;
+  }
+
+  .home h3 {
+    font-size: 16px;
+  }
+
+  .home ul li {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container_header {
+    padding: 10px;
+    font-size: 8px;
+  }
+
+  .container_header ul {
+    gap: 15px;
+  }
+
+  .home {
+    padding: 10px;
+  }
+
+  .home-content {
+    padding: 5px;
+  }
+
+  .home h2 {
+    font-size: 18px;
+  }
+
+  .home h3 {
+    font-size: 16px;
+  }
+
+  .home ul li {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,14 @@
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid black;
+  height: 120px;
+  align-items: normal;
+  margin: 10px;
+}

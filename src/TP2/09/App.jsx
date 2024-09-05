@@ -3,21 +3,35 @@ export default function App() {
   return (
     <div>
       <div className="enunciado">
-        <h1>Exercício 9 - Agrupar Produtos por Categoria</h1>
+        <h1>Exercício 9 - Landing page responsiva</h1>
         <p>
-          Desenvolva uma função chamada agruparPorCategoria que receba um array
-          de objetos representando produtos, onde cada produto tem uma
-          propriedade categoria e uma propriedade nome. A função deve retornar
-          um objeto onde as chaves são as categorias e os valores são arrays
-          contendo os nomes dos produtos pertencentes a cada categoria.
+          Neste exercício, você terá a oportunidade de aprimorar suas
+          habilidades em design responsivo, adaptando o template desenvolvido
+          anteriormente (exercício 8) para garantir uma experiência de usuário
+          consistente em dispositivos menores, como smartphones e tablets.
         </p>
 
-        <pre>{JSON.stringify(produtos, null, 2)}</pre>
+        <p>
+          Desafio: Você recebeu um template de landing page que foi desenvolvido
+          para dispositivos de tela padrão. Agora, sua missão é ajustar esse
+          template para que ele seja responsivo e se adapte de forma adequada em
+          dispositivos menores, mantendo a usabilidade e a estética da página.
+        </p>
+
+        <p>
+          Instruções: Analise o template fornecido no exercício anterior e
+          identifique áreas que precisam ser ajustadas para melhorar a
+          experiência em dispositivos menores. Utilize media queries em seu
+          arquivo styles.css para aplicar estilos específicos que sejam
+          adequados para dispositivos de tela pequena. Adapte o layout e os
+          componentes conforme necessário para garantir uma apresentação
+          agradável e funcional em dispositivos móveis.
+        </p>
       </div>
 
-      <div className="solucao">
+      {/* <div className="solucao">
         <pre>{JSON.stringify(objProdutos, null, 2)}</pre>
-      </div>
+      </div> */}
     </div>
   );
 }
