@@ -1,0 +1,52 @@
+.who_we_are {
+  padding: 10px;
+  max-width: 900px;
+  margin: 0 auto;
+  /* border: 1px dotted blue; */
+}
+
+.history,
+.team {
+  /* background-color: #fff; */
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.team h2,
+.history h2 {
+  font-size: 28px;
+  color: #36454f;
+  margin-bottom: 10px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.team_member {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.team_member img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.team_member_info {
+  margin-left: 10px;
+}
+
+.team_member_info h3 {
+  font-size: 24px;
+  color: #36454f;
+  margin: 0;
+}
+
+.team_member_info p,
+.history {
+  font-size: 14px;
+  color: #444;
+  margin: 5px 0;
+}

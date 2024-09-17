@@ -1,0 +1,33 @@
+.container_header {
+  background-color: #2f4f4f;
+  color: rgb(197, 206, 214);
+  padding: 10px 20px;
+  border-bottom: 2px solid #444;
+  font-size: 18px;
+  max-height: 40px;
+}
+
+.container_header ul {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container_header li {
+  list-style: none;
+  user-select: none;
+}
+
+.container_header li:first-child {
+  font-family: "SUSE", sans-serif;
+  flex-grow: 1;
+  font-size: px;
+  font-weight: bold;
+}
+
+nav ul li:nth-child(n + 2):hover {
+  cursor: pointer;
+  color: #8dac56;
+  border-bottom: 2px solid #556b2f;
+}

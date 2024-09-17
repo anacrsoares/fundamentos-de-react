@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p,
+h1 {
+  margin: 10px;
+  text-align: justify;
+}
+
+.solucao {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  padding: 60px;
+  border: 1px solid rgb(250, 128, 114);
+  box-shadow: 1px 1px 1px rgba(255, 127, 113, 0.5);
+  align-items: center;
+  justify-content: center;
+}
+
+.solucao h1 {
+  font-size: 4rem;
+}
+
+.solucao .buttons {
+  display: flex;
+  gap: 5px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  color: aliceblue;
+  background-color: rgb(0, 0, 0);
+  font-size: larger;
+}

@@ -1,0 +1,26 @@
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container_header {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  border: 2px solid black;
+  height: 60px;
+  align-items: center;
+  margin: 10px;
+}
+
+.container_header h2 {
+  text-align: center;
+  flex-grow: 1.5;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+img {
+  width: 100px;
+}

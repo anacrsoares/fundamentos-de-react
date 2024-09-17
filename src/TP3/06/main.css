@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p,
+h1 {
+  margin: 10px;
+  text-align: justify;
+}
+
+.solucao {
+  display: flex;
+  margin: 30px;
+  padding: 30px;
+  border: 1px solid rgb(250, 128, 114);
+  box-shadow: 1px 1px 1px rgba(255, 127, 113, 0.5);
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.solucao h1 {
+  font-size: 2rem;
+}
+
+.solucao li {
+  list-style: none;
+  padding: 2px;
+}
+
+.solucao li:hover {
+  cursor: pointer;
+}
+
+.solucao ul {
+  overflow-y: auto;
+  max-height: 200px;
+  padding-left: 20px; /* Adiciona um espaço maior ao lado da borda */
+  border-left: 4px solid rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

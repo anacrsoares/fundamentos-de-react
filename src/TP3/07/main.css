@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p,
+h1 {
+  margin: 10px;
+  text-align: justify;
+}
+
+.solucao {
+  display: flex;
+  margin: 30px;
+  padding: 10px;
+  border: 1px solid rgb(250, 128, 114);
+  box-shadow: 1px 1px 1px rgba(255, 127, 113, 0.5);
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.solucao h1 {
+  font-size: 2rem;
+}
+
+.solucao li {
+  list-style: none;
+  padding: 2px;
+}
+
+.solucao li:hover {
+  cursor: pointer;
+}
+
+.solucao .task-list {
+  overflow-y: auto;
+  max-height: 200px;
+  padding-left: 20px; /* Adiciona um espaço maior ao lado da borda */
+  border-left: 4px solid rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 50%;
+  flex-grow: 1;
+}
+
+.solucao .list-item {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+}
+
+.solucao .list-item button {
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+  background-color: greenyellow;
+  border: none;
+  padding: 5px;
+  margin: 1px;
+}
+
+.completed li {
+  text-decoration: line-through;
+}
+
+.solucao button:focus {
+  background-color: #d4edda;
+  color: #155724;
+  /* border: 1px solid #c3e6cb; */
+  transition: ease 0.4s;
+}
