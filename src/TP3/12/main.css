@@ -4,17 +4,117 @@
   box-sizing: border-box;
 }
 
-p,
-h1 {
+body {
+  width: 100vw;
+}
+
+h1,
+h3 {
   margin: 10px;
   text-align: justify;
 }
 
+p {
+  padding: 10px 20px;
+  text-align: justify;
+}
+
+button,
+input,
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2rem;
+}
+
 .solucao {
+  display: flex;
+  margin: 30px;
   padding: 10px;
   border: 1px solid rgb(250, 128, 114);
   box-shadow: 1px 1px 1px rgba(255, 127, 113, 0.5);
-  background-color: #161513;
-  color: white;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.solucao h1 {
+  font-size: 2rem;
+}
+
+.solucao li {
+  list-style: none;
+  padding: 2px;
+}
+
+.solucao li:hover {
+  cursor: pointer;
+}
+
+.container-input-task {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  gap: 10px;
+}
+
+.container-input-task input {
+  font-size: 1.4rem;
+  flex: 1;
+}
+
+.solucao .task-list {
+  overflow-y: auto;
+  max-height: 200px;
+  padding-left: 20px;
+  border-left: 4px solid rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 50%;
+  flex-grow: 1;
+}
+
+.solucao .task-list button {
+  padding: 5px 10px;
+  border-radius: 4px;
+  background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
+  color: #333;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.solucao .task-list button:hover {
+  transform: translateY(-5%);
+  transition: 0.3s ease-in;
+  background: linear-gradient(to bottom, #f0f0f0, #d2d2d2);
+}
+
+.solucao .task-list input {
+  border-left: 4px solid rgba(0, 0, 0, 0.6);
+  background: linear-gradient(to bottom, #fafafa, #ececec);
+  padding-left: 10px;
+}
+
+.solucao .list-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.solucao .list-item button {
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+  margin: 1px;
+}
+
+.completed li {
+  text-decoration: line-through;
+}
+
+.solucao button:focus {
+  background-color: #d4edda;
+  color: #155724;
+  /* border: 1px solid #c3e6cb; */
+  transition: ease 0.4s;
 }
